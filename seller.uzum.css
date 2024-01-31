@@ -87,7 +87,7 @@ header {
     margin: 0;
     width: 100%;
     padding: 0;
-    background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+    background-image: url(./tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ header {
     border-radius: 50px;
     color: #fcfcfc;
     background-color: rgba(54, 46, 46, 0.5);
-    background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+    background-image: url(./tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -392,7 +392,7 @@ footer .header-wrapper__links {
         width: 100%;
     }
     .tn-atom__img {
-        background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+        background-image: url(./tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
         background-size: cover;
         background-position: top;
     }
