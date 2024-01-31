@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #141414;
+}
+header {
+    width: 100%;
+    padding: 20px 50px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0);
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+.header-wrapper__logo {
+    margin: 0;
+}
+.header-wrapper__links a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'TT Norms Pro', sans-serif;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+.header-wrapper__link {
+    border: none;
+    border-radius: 10px;
+    background-color: #7000FF;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'TT Norms Pro', sans-serif;
+    padding: 10px 22px;
+    color: #e6e6e6;
+}
+.header-wrapper__bars {
+    display: none;
+}
+
+/*Main Section*/
+.main {
+    padding: 0 70px;
+}
+.main-container {
+    vertical-align: middle;
+    display: flex;
+    box-sizing: border-box;
+}
+.main-title {
+    padding: 180px 100px;
+}
+.main-title h1 {
+    line-height: 80px;
+    font-size: 72px;
+    color: #fcfcfc;
+    font-family: 'TT Norms Pro', Arial, sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+    padding-bottom: 15px;
+}
+.main-title p {
+    line-height: 36px;
+    font-size: 28px;
+    color: #bcbbbb;
+    font-family: 'TT Norms Pro', Arial, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    float: left;
+}
+.main-wrapper__link {
+    margin: 40px 0;
+    padding: 20px 50px;
+    font-weight: 550;
+    font-size: 22px;
+}
+.main-image {
+    box-sizing: content-box;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.tn-atom__img {
+    margin: 100px 0px;
+    width: 100%;
+    box-sizing: content-box;
+}
+.main-wrapper {
+    margin: 0 70px;
+    border-radius: 50px;
+    color: #fcfcfc;
+    background-color: rgba(54, 46, 46, 0.5);
+    background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main-title > h2 {
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 38px;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.main-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-wrapper .main-title {
+    padding: 70px;
+}
+.main-column p {
+    width: 50%;
+    color: #bcbbbb;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.second-wrapper {
+    width: 30%;
+    padding: 0 40px 30px;
+    border-radius: 30px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(54, 46, 46, 0.5);
+}
+.second-wrapper .main-title  {
+    padding: 0;
+}
+.second-wrapper img {
+    width: 100%;
+    height: 100px;
+}
+.second-image {
+    padding: 50px 0;
+}
+.third {
+    margin: 60px 10px;
+}
+.third-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.third-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 120px 0;
+    vertical-align: middle;
+    gap: 10px;
+    padding-left: 50px;
+}
+.third-wrapper h3 {
+    color: #fcfcfc;
+    font-weight: 500;
+    font-family: 'TT Norms Pro', sans-serif;
+    line-height: 40px;
+    font-size: 24px;
+}
+.third-images {
+    width: 100%;
+}
+.third-images img {
+    width: auto;
+    height: 450px;
+}
+.fourth-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.fourth-container img:first-child {
+    width: 250px;
+}
+.fourth-container img:last-child {
+    width: 250px;
+}
+.fifth-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.fifth-wrapper {
+    width: 30%;
+    color: #fcfcfc;
+    font-family: 'TT Norms Pro';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.main-title {
+    padding: 0;
+}
+.sixth-wrapper img {
+    width: 100px;
+    margin-left: 90px;
+}
+.sixth .sixth-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.sixth-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 50px 200px;
+    background-color: black;
+    gap: 100px;
+}
+footer .header-wrapper__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.footer-container img {
+    margin-top: 0;
+    padding-top: 0;
+}
+.header-wrapper__links p {
+    color: #fcfcfc;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'TT Norms Pro', sans-serif;
+    padding: 0 15px;
+}
+@media (max-width:1350px) {
+    .main-title {
+        padding: 180px 30px 0 50px;
+    }
+    .main-title h1 {
+        line-height: 80px;
+        font-size: 60px;
+        color: #fcfcfc;
+        font-family: 'TT Norms Pro', Arial, sans-serif;
+        font-weight: 700;
+        vertical-align: middle;
+        padding-bottom: 15px;
+    }
+    .main-title p {
+        font-size: 22px;
+        font-family: 'TT Norms Pro', Arial, sans-serif;
+        font-weight: 400;
+        vertical-align: middle;
+        float: left;
+    }
+    .third-wrapper {
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .third-images img {
+        height: 350px;
+    }
+    .third-wrapper button {
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 18px;
+    }
+    .third-wrapper h3 {
+        font-size: 18px;
+    }
+    .fourth-container {
+        margin-top: 0;
+    }
+    
+}
+@media (max-width:1250px) {
+    
+    .second-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .second-wrapper {
+        width: 45%;
+        padding: 0 30px 10px;
+        border-radius: 30px;
+        vertical-align: middle;
+        text-align: center;
+        background-color: rgba(54, 46, 46, 0.5);
+    }
+    .second-wrapper .main-title  {
+        padding: 0;
+    }
+    .second-wrapper img {
+        width: 100%;
+        height: 80px;
+    }
+    .second-image {
+        padding: 50px 0;
+    }
+    .sixth-wrapper button {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .sixth-wrapper img {
+        margin-left: 70px;
+        width: 70px;
+    }
+}
+@media  (max-width:1050px) {
+    header {
+        padding: 20px 30px;
+    }
+    .header-wrapper__links {
+        display: none;
+    }
+    .header-wrapper__bars {
+        display: block;
+    }
+    .header-wrapper__bars i {
+        color: #e6e6e6;
+        float: right;
+        padding-top: 5px;
+        font-size: 30px;
+        margin: 0;
+    }
+    .main {
+        padding: 0 0 100px 0;
+    }
+    .main-container {
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main-title {
+        padding: 0 30px;
+    }
+    .main-title h1 {
+        line-height: 80px;
+        font-size: 72px;
+        color: #fcfcfc;
+        font-family: 'TT Norms Pro', Arial, sans-serif;
+        font-weight: 700;
+        vertical-align: middle;
+        padding-bottom: 15px;
+    }
+    .main-title p {
+        line-height: 36px;
+        font-size: 28px;
+        font-family: 'TT Norms Pro', Arial, sans-serif;
+        font-weight: 400;
+        vertical-align: middle;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .main-wrapper__link {
+        margin-top: 40px;
+        padding: 20px 50px;
+        font-weight: 550;
+        font-size: 22px;
+    }
+    .main-image {
+        width: 100%;
+    }
+    .tn-atom__img {
+        background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+        background-size: cover;
+        background-position: top;
+    }
+    .main-column {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-wrapper .main-title {
+        padding: 30px;
+    }
+    .main-column p {
+        width: 100%;
+        color: #bcbbbb;
+    }
+    .third-images img {
+        width: auto;
+        height: 220px;
+    }
+    .fifth-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding: 10px;
+    }
+    .fifth-wrapper {
+        width: 90%;
+        color: #fcfcfc;
+        font-family: 'TT Norms Pro';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .fifth {
+        margin-top: 50px;
+    }
+    .fifth h2 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 700px) {
+    .third-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 0;
+    }
+    .third-wrapper {
+        padding: 50px 0;
+        vertical-align: middle;
+        gap: 10px;
+        padding-left: 30px;
+    }
+    .third-wrapper h3 {
+        font-size: 24px;
+    }
+    .third-column {
+        grid-row: 1 / 3;
+    }
+    .third-images {
+        width: 100%;
+    }
+    .third-images img {
+        width: auto;
+        height: 350px;
+    }
+    
+    .fourth-container img:nth-child(1) {
+        width: 200px;
+    }
+    .fourth-container img:nth-child(2) {
+        width: 200px;
+    }
+    .fourth-container img:nth-child(3) {
+        width: 200px;
+    }
+    .fourth-container img:nth-child(4) {
+        width: 200px;
+    }
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        padding: 50px 100px;
+        background-color: black;
+        gap: 50px;
+    }
+    footer .header-wrapper__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .footer-container img {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .header-wrapper__links p {
+        color: #fcfcfc;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'TT Norms Pro', sans-serif;
+        padding: 0 15px;
+    }
+}
+@media (max-width:540px) and (min-width:320px) {
+    header {
+        padding: 20px 30px;
+    }
+    .header-wrapper__links {
+        display: none;
+    }
+    .header-wrapper__bars {
+        display: block;
+    }
+    .header-wrapper__bars i {
+        color: #e6e6e6;
+        float: right;
+        padding-top: 5px;
+        font-size: 30px;
+        margin: 0;
+    }
+    .main {
+        padding: 0 0 100px 0;
+    }
+    .main-container {
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main-title {
+        padding: 0 30px;
+    }
+    .main-title h1 {
+        line-height: 50px;
+        font-size: 45px;
+        color: #fcfcfc;
+        font-family: 'TT Norms Pro', Arial, sans-serif;
+        font-weight: 700;
+        vertical-align: middle;
+        padding-bottom: 15px;
+    }
+    .main-title p {
+        line-height: 28px;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: 'TT Norms Pro', Arial, sans-serif;
+        font-weight: 400;
+        vertical-align: middle;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .main-wrapper__link {
+        margin-top: 40px;
+        padding: 20px 50px;
+        font-weight: 550;
+        font-size: 18px;
+    }
+    .main-wrapper {
+        margin: 10px;
+        border-radius: 50px;
+        background-color: rgba(54, 46, 46, 0.5);
+        background-image: url(../images/tild3138-3334-4137-a637-323234333537__ellipse_121.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .main-title > h2 {
+        line-height: 30px;
+        color: #ffffff;
+        font-size: 25px;
+        font-family: 'TT Norms Pro', sans-serif;
+        font-weight: 530;
+        padding-bottom: 30px;
+    }
+    .main-column {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-wrapper .main-title {
+        padding: 30px;
+    }
+    .main-column p {
+        width: 100%;
+        color: #bcbbbb;
+    }
+    .third-images img {
+        width: auto;
+        height: 200px;
+        padding-left: 20px;
+    }
+    .second-wrapper {
+        width: 90%;
+    }
+    .third-wrapper h3,
+    .third-wrapper button {
+        font-size: 18px;
+    }
+    
+}
