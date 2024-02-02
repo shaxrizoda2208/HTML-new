@@ -478,7 +478,7 @@ footer .header-wrapper__links {
         flex-wrap: wrap;
         justify-content: flex-start;
         align-content: flex-start;
-        padding: 50px 100px;
+        padding: 50px;
         background-color: black;
         gap: 50px;
     }
