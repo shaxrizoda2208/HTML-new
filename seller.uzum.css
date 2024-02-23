@@ -549,6 +549,7 @@ footer .header-wrapper__links {
     }
     .main-wrapper__link {
         margin-top: 40px;
+        margin-bottom: 50px;
         padding: 20px 50px;
         font-weight: 550;
         font-size: 18px;
